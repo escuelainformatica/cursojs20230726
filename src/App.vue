@@ -2,7 +2,7 @@
 import Componente1 from './Componente1.vue';
 import Tabla from './Tabla.vue';
 import DatoEmpleado from './DatoEmpleado.vue';
-
+import Boton from './Boton.vue';
 </script>
 <template>
   <Componente1/>
@@ -10,6 +10,10 @@ import DatoEmpleado from './DatoEmpleado.vue';
   <br>
   <hr>
   <DatoEmpleado/>
+  <br>
+  <hr>
+  <Boton/>
+
 </template>
 <style>
   .etiqueta {
